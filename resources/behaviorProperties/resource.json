@@ -1,0 +1,87 @@
+{
+  "behaviors": {
+    "PlayerBehavior": {
+      "scriptId": "7",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "direction",
+          "type": "number"
+        }
+      ]
+    },
+    "SpawnerBehavior": {
+      "scriptId": "11",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "prefabPath",
+          "type": "string"
+        },
+        {
+          "name": "spawnAtOnce",
+          "type": "number"
+        },
+        {
+          "name": "spawnLimit",
+          "type": "number"
+        },
+        {
+          "name": "spawnInterval",
+          "type": "number"
+        },
+        {
+          "name": "rangeMinX",
+          "type": "number"
+        },
+        {
+          "name": "rangeMaxX",
+          "type": "number"
+        },
+        {
+          "name": "rangeMinY",
+          "type": "number"
+        },
+        {
+          "name": "rangeMaxY",
+          "type": "number"
+        },
+        {
+          "name": "rangeMinZ",
+          "type": "number"
+        },
+        {
+          "name": "rangeMaxZ",
+          "type": "number"
+        }
+      ]
+    },
+    "DestroyOnContactBehavior": {
+      "scriptId": "14",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "targetName",
+          "type": "string"
+        },
+        {
+          "name": "distanceToConsiderInContact",
+          "type": "number"
+        }
+      ]
+    },
+    "ScoreBehavior": {
+      "scriptId": "15",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

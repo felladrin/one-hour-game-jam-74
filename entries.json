@@ -1,0 +1,57 @@
+{
+  "nextEntryId": 16,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Scene",
+      "type": "scene"
+    },
+    {
+      "id": "13",
+      "name": "GoalPrefab",
+      "type": "scene"
+    },
+    {
+      "id": "15",
+      "name": "ScoreBehavior",
+      "type": "script"
+    },
+    {
+      "id": "12",
+      "name": "Goal",
+      "type": "sprite"
+    },
+    {
+      "id": "9",
+      "name": "Font",
+      "type": "font"
+    },
+    {
+      "id": "11",
+      "name": "SpawnerBehavior",
+      "type": "script"
+    },
+    {
+      "id": "14",
+      "name": "DestroyOnContactBehavior",
+      "type": "script"
+    },
+    {
+      "id": "1",
+      "name": "Player",
+      "type": null,
+      "children": [
+        {
+          "id": "10",
+          "name": "Player",
+          "type": "sprite"
+        },
+        {
+          "id": "7",
+          "name": "PlayerBehavior",
+          "type": "script"
+        }
+      ]
+    }
+  ]
+}
